@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Video from './Video';
+import {data} from './data';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {
+      data.map((video, index) => 
+        <Video
+          key={index}
+          title={video.title} 
+          dateAdded={video.dateAdded}
+          channel={video.channel}
+          thumbnail={video.thumbnail}
+          description={video.description} /> )
+    }
+    </>
   );
 }
 
