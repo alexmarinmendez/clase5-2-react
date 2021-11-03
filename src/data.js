@@ -1,5 +1,6 @@
 export const data = [
     {
+      id: 1,
       title: "Rod Stewart - Young Turks (Official Video)",
       dateAdded: "2009-10-29T21:26:05Z",
       channel: "Rod Stewart",
@@ -7,6 +8,7 @@ export const data = [
       description: "Official music video for Rod Stewart – Young Turks from 'Tonight I'm Yours' (1981) Listen to more Rod Stewart here: https://rhino.lnk.to/RodStewartStr ..."
     },
     {
+      id: 2,
       title: "Rod Stewart - Baby Jane (Official Video)",
       dateAdded: "2014-03-01T01:35:21Z",
       channel: "Rod Stewart",
@@ -14,6 +16,7 @@ export const data = [
       description: "Official music video for Rod Stewart – “Baby Jane” from 'Body Wishes' (1983) Listen to more Rod Stewart here: https://rhino.lnk.to/RodStewartStr Watch all ..."
     },
     {
+      id: 3,
       title: "Bizcocho marmolado de naranja. SUPERESPONJOSO",
       dateAdded: "2019-09-25T18:16:56Z",
       channel: "Anna recetasfaciles",
@@ -21,6 +24,7 @@ export const data = [
       description: "Compra mi libro de recetas COCINA PARA TRIUNFAR en este link https://amzn.to/2UPUhNZ Mi sartén Tefal Aroma 24 cm https://amzn.to/2WSFjLf Batidora de ..."
     },
     {
+      id: 4,
       title: "Jarabe De palo - Ying Yang",
       dateAdded: "2008-12-04T14:37:33Z",
       channel: "Warner Music Spain",
@@ -28,6 +32,7 @@ export const data = [
       description: ""
     },
     {
+      id: 5,
       title: "La Niña: ¿Podrá Latinoamérica plantarle cara?",
       dateAdded: "2021-10-23T00:15:00Z",
       channel: "DW Español",
